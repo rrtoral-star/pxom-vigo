@@ -1,0 +1,86 @@
+# ── Entornos virtuales ───────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Variables de entorno ─────────────────────────────────────
+.env
+.env.*
+
+# ── Datos y cachés locales ───────────────────────────────────
+data/v2/cache/
+data/rag/
+data/raw/
+data/cleaned/
+
+# ── Qdrant storage local ─────────────────────────────────────
+data/rag/qdrant_storage/
+data/rag/qdrant_v2/
+
+# ── Scripts temporales de diagnóstico ────────────────────────
+diagnostico_qdrant.py
+fix_ordenanza_payload.py
+inspeccionar_json.py
+que_falta.py
+test_dual.py
+test_carvia.py
+
+# ── Logs y temporales ────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+
+# ── OS ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDEs ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# Scripts temporales de diagn�stico y test
+crear_articulos_db.py
+crear_rag.py
+crear_rag_limpio.py
+diagnostico_qdrant.py
+fix_ordenanza_payload.py
+inspeccionar_json.py
+que_falta.py
+test_barbon.py
+test_btuv.py
+test_carvia.py
+test_conexion.py
+test_conexion2.py
+test_conexion3.py
+test_conexion4.py
+test_conexion5.py
+test_conexion6.py
+test_conexion7.py
+test_conexion8.py
+test_conexion9.py
+test_dual.py
+test_longitud.py
+test_pwd.py
+
+# Secrets
+.streamlit/secrets.toml
+
+data/raw/
+data/processed/
+data/cache/
+data/v3/
+*.pdf
+__pycache__/
+*.pyc
+
+scripts/data/
+
+scripts/data/
